@@ -113,10 +113,28 @@
     justify-content: space-around;
 }
 .pro {
-    height: 100px;
+    height: 90px;
+    margin-top: 10px;
 }
-
-@media screen and (max-width:500px) {
+@media screen and (max-width:454px) {
+    .image {
+        margin-left: 12px;
+    }
+    .name  {
+        margin-left: 4px;
+        margin-right: 2px;
+    }
+    .description {
+        margin: 7px;
+    }
+    .pro {
+        margin-top: 5px;
+    }
+    .skldiv {
+        margin-top: 3px;
+    }   
+}
+@media screen and (max-width:550px) {
     .left {
         width: 30%;
         font-size: small;
@@ -124,13 +142,16 @@
     .image-name {
         width: 150px;
         height: 160px;
-        margin: 2px;
+        margin-left: 2px;
+        margin-right: 3px;
     }
     .image {
         width: 50px;
         height: 60px;
-        border-radius: 50%;
-        
+        border-radius: 50%;       
+    }
+    .name {
+        margin-right: 3px;
     }
     .name b {
         font-size: small;
@@ -146,11 +167,18 @@
         font-size: small;
     }
     .description {
-        margin: 15px;
-        height: 100px;
-        width: 500px;
+        margin: 10px;
+        height: 120px;
+        width: 450px;
         font-size: small;
     }
+    .pro {
+        margin-top: 8px;
+    }
+    .skldiv {
+        margin-top: 4px;
+    }
+
 
 }
 @media screen and (min-width:756px) {
