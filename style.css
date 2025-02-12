@@ -116,12 +116,24 @@
     height: 90px;
     margin-top: 10px;
 }
-@media screen and (max-width:454px) {
+@media screen and (max-width:320px) {
+    .box {
+        display: flex;
+    }
+    .left {
+        margin-left: 3px;
+        width: 20px;
+        height: 100vh;
+        font-size: xx-small;
+    }
+    .eml {
+        font-size: xx-small;
+    }
     .image {
-        margin-left: 12px;
+        margin-left: 10px;
     }
     .name  {
-        margin-left: 4px;
+        margin-left: 2px;
         margin-right: 2px;
     }
     .description {
@@ -133,25 +145,37 @@
     .skldiv {
         margin-top: 3px;
     }   
+    .right {
+        width: 40px;
+    }
+
 }
-@media screen and (max-width:550px) {
+@media screen and (max-width:600px) {
     .left {
-        width: 30%;
-        font-size: small;
+        width: 120px;
+        font-size: xx-small;
     }
     .image-name {
         width: 150px;
         height: 160px;
-        margin-left: 2px;
+        margin-left: 1px;
         margin-right: 3px;
     }
     .image {
         width: 50px;
         height: 60px;
-        border-radius: 50%;       
+        border-radius: 50%;  
+        margin-left: 2px;
+        margin-right: 2px;     
     }
     .name {
         margin-right: 3px;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    .eml {
+        font-size: xx-small;
+        font-weight: 100;
     }
     .name b {
         font-size: small;
